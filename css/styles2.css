@@ -1,0 +1,72 @@
+body {
+    /* background: black; */
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-size: 16px;
+    text-align: center;
+    background-color: black;
+
+}
+
+.boxx {
+    display: flex;
+    margin: 0 auto;
+    min-height: 40px;
+    justify-content: space-evenly;
+}
+
+.flex {
+    display: flex;
+    height: 100%;
+    min-height: 400px;
+    flex-direction: column;
+    align-content: space-between;
+    justify-content: space-evenly;
+    align-items: center;
+    padding-top: 10%;
+
+}
+
+.btn {
+    width: 140px;
+    height: 50px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 15%;
+
+}
+
+.vk {
+    margin-right: 15px;
+}
+
+.tort {
+    text-decoration: none;
+    color: blue;
+    padding: 20px 0px 20px 40px;
+    background: url(../image/icon3.png) no-repeat;
+    background-size: 35px;
+    background-position: left center;
+}
+
+.tort:hover {
+    color: pink;
+}
+
+.name {
+    color: white;
+    padding: 20px 100px 20px 40px;
+    background: url(../image/icon2.png) no-repeat;
+    background-size: 100px;
+    background-position: right center;
+}
+
+.btn:hover {
+    color: red;
+    transform: scale(110%);
+    box-shadow: 0 0 30px rgb(17, 134, 207) inset;
+    transition: all cubic-bezier(0.075, 0.82, 0.165, 1) 0.4s;
+}
